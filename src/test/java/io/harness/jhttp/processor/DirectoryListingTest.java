@@ -61,9 +61,9 @@ public class DirectoryListingTest {
     public void testDirListing() throws IOException {
         when(request.resolvePath()).thenReturn(tempDir.resolve("some-dir"));
         when(request.getUri()).thenReturn("/some-dir");
-        assertTrue(new DirectoryListing().process(request, response));
-        assertTrue(new DirectoryListing().process(request, response));
-        //assertEquals(readResource("/directory-listing/some-dir.html"), stringWriter.toString());
+        //assertTrue(new DirectoryListing().process(request, response));
+        //assertTrue(new DirectoryListing().process(request, response));
+        assertEquals(readResource("/directory-listing/some-dir.html"), stringWriter.toString());
     }
 
     private String readResource(String filename) throws IOException {
