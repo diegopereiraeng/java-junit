@@ -51,12 +51,12 @@ public class DirectoryListingTest {
         FileUtils.deleteDirectory(tempDir.toFile());
     }
 
-  //  @Test
- //   public void testRootListing() throws IOException {
-        //assertTrue(new DirectoryListing().process(request, response));
-        //assertTrue(new DirectoryListing().process(request, response));
- //       assertEquals(readResource("/directory-listing/root.html"), stringWriter.toString());
- //   }
+    @Test
+    public void testRootListing() throws IOException {
+        assertTrue(new DirectoryListing().process(request, response));
+        assertTrue(new DirectoryListing().process(request, response));
+        //assertEquals(readResource("/directory-listing/root.html"), stringWriter.toString());
+    }
 
 //    @Test
 //    public void testDirListing() throws IOException {
