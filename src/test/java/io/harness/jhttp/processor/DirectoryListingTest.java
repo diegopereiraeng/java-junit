@@ -54,6 +54,7 @@ public class DirectoryListingTest {
     @Test
     public void testRootListing() throws IOException {
         assertTrue(new DirectoryListing().process(request, response));
+        assertTrue(new DirectoryListing().process(request, response));
 //        assertEquals(readResource("/directory-listing/root.html"), stringWriter.toString());
     }
 
