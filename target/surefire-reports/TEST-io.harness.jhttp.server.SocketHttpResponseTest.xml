@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="io.harness.jhttp.server.SocketHttpResponseTest" time="0.002" errors="5" skipped="0">
+<testsuite tests="5" failures="0" name="io.harness.jhttp.server.SocketHttpResponseTest" time="0.001" errors="5" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="16.0.1+0"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/16.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/koaladiego/Documents/Development/jhttp"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/koaladiego/Documents/Development/java-junit"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="path.separator" value=":"/>
@@ -13,11 +13,11 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/koaladiego/Documents/Development/jhttp"/>
+    <property name="user.dir" value="/Users/koaladiego/Documents/Development/java-junit"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="16.0.1+0"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="java.io.tmpdir" value="/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/"/>
+    <property name="java.io.tmpdir" value="/var/folders/0v/gmt59phj3z16l7zw_mpky7s80000gn/T/"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -32,15 +32,15 @@
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.15.7"/>
     <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.8.1/libexec/lib/jansi-native"/>
-    <property name="user.home" value="/var/root"/>
+    <property name="user.home" value="/Users/koaladiego"/>
     <property name="user.timezone" value="America/Sao_Paulo"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="16"/>
-    <property name="user.name" value="root"/>
+    <property name="user.name" value="koaladiego"/>
     <property name="java.class.path" value="/usr/local/Cellar/maven/3.8.1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="16"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.home" value="/usr/local/Cellar/openjdk/16.0.1/libexec/openjdk.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -155,7 +155,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make private
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="io.harness.jhttp.server.SocketHttpResponseTest" name="testNoHeadersAfterCommit" time="0.001">
+  <testcase classname="io.harness.jhttp.server.SocketHttpResponseTest" name="testNoHeadersAfterCommit" time="0">
     <error message="Unexpected exception, expected&lt;java.lang.IllegalStateException&gt; but was&lt;java.lang.reflect.InaccessibleObjectException&gt;" type="java.lang.Exception">java.lang.Exception: Unexpected exception, expected&lt;java.lang.IllegalStateException&gt; but was&lt;java.lang.reflect.InaccessibleObjectException&gt;
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
@@ -207,7 +207,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make private
 	... 22 more
 </error>
   </testcase>
-  <testcase classname="io.harness.jhttp.server.SocketHttpResponseTest" name="testOnlyOutputStream" time="0">
+  <testcase classname="io.harness.jhttp.server.SocketHttpResponseTest" name="testOnlyOutputStream" time="0.001">
     <error message="Unexpected exception, expected&lt;java.lang.IllegalStateException&gt; but was&lt;java.lang.reflect.InaccessibleObjectException&gt;" type="java.lang.Exception">java.lang.Exception: Unexpected exception, expected&lt;java.lang.IllegalStateException&gt; but was&lt;java.lang.reflect.InaccessibleObjectException&gt;
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
@@ -259,7 +259,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make private
 	... 22 more
 </error>
   </testcase>
-  <testcase classname="io.harness.jhttp.server.SocketHttpResponseTest" name="testNoSetContentTypeAfterCommit" time="0.001">
+  <testcase classname="io.harness.jhttp.server.SocketHttpResponseTest" name="testNoSetContentTypeAfterCommit" time="0">
     <error message="Unexpected exception, expected&lt;java.lang.IllegalStateException&gt; but was&lt;java.lang.reflect.InaccessibleObjectException&gt;" type="java.lang.Exception">java.lang.Exception: Unexpected exception, expected&lt;java.lang.IllegalStateException&gt; but was&lt;java.lang.reflect.InaccessibleObjectException&gt;
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)

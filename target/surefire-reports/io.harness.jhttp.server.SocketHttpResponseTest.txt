@@ -100,7 +100,7 @@ java.lang.reflect.InaccessibleObjectException: Unable to make private java.net.S
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testNoHeadersAfterCommit(io.harness.jhttp.server.SocketHttpResponseTest)  Time elapsed: 0.001 sec  <<< ERROR!
+testNoHeadersAfterCommit(io.harness.jhttp.server.SocketHttpResponseTest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.Exception: Unexpected exception, expected<java.lang.IllegalStateException> but was<java.lang.reflect.InaccessibleObjectException>
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
@@ -151,7 +151,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make private
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
 	... 22 more
 
-testOnlyOutputStream(io.harness.jhttp.server.SocketHttpResponseTest)  Time elapsed: 0 sec  <<< ERROR!
+testOnlyOutputStream(io.harness.jhttp.server.SocketHttpResponseTest)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.Exception: Unexpected exception, expected<java.lang.IllegalStateException> but was<java.lang.reflect.InaccessibleObjectException>
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
@@ -202,7 +202,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make private
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
 	... 22 more
 
-testNoSetContentTypeAfterCommit(io.harness.jhttp.server.SocketHttpResponseTest)  Time elapsed: 0.001 sec  <<< ERROR!
+testNoSetContentTypeAfterCommit(io.harness.jhttp.server.SocketHttpResponseTest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.Exception: Unexpected exception, expected<java.lang.IllegalStateException> but was<java.lang.reflect.InaccessibleObjectException>
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)

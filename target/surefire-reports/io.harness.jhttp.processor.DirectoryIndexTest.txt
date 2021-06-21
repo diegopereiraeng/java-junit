@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: io.harness.jhttp.processor.DirectoryIndexTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.09 sec <<< FAILURE!
-testIndexHtml(io.harness.jhttp.processor.DirectoryIndexTest)  Time elapsed: 0.06 sec  <<< ERROR!
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.12 sec <<< FAILURE!
+testIndexHtml(io.harness.jhttp.processor.DirectoryIndexTest)  Time elapsed: 0.078 sec  <<< ERROR!
 java.lang.ExceptionInInitializerError
 	at org.mockito.cglib.core.KeyFactory$Generator.generateClass(KeyFactory.java:167)
 	at org.mockito.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
