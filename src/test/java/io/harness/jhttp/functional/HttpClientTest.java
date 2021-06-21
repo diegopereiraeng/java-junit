@@ -46,9 +46,9 @@ public class HttpClientTest {
     }
 
 //    @Test
-    public void testDirectoryListing() throws IOException {
-        testRequest("/", "/http-server/root.html");
-    }
+//    public void testDirectoryListing() throws IOException {
+ //       testRequest("/", "/http-server/root.html");
+ //   }
 
     @Test
     public void testDirectoryIndex() throws IOException {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="io.harness.jhttp.server.SocketHttpResponseTest" time="0.001" errors="5" skipped="0">
+<testsuite tests="5" failures="0" name="io.harness.jhttp.server.SocketHttpResponseTest" time="0.035" errors="5" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="16.0.1+0"/>
@@ -55,7 +55,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="Homebrew"/>
   </properties>
-  <testcase classname="io.harness.jhttp.server.SocketHttpResponseTest" name="testOnlyPrintWriter" time="0">
+  <testcase classname="io.harness.jhttp.server.SocketHttpResponseTest" name="testOnlyPrintWriter" time="0.033">
     <error message="Unexpected exception, expected&lt;java.lang.IllegalStateException&gt; but was&lt;java.lang.reflect.InaccessibleObjectException&gt;" type="java.lang.Exception">java.lang.Exception: Unexpected exception, expected&lt;java.lang.IllegalStateException&gt; but was&lt;java.lang.reflect.InaccessibleObjectException&gt;
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
@@ -107,7 +107,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make private
 	... 22 more
 </error>
   </testcase>
-  <testcase classname="io.harness.jhttp.server.SocketHttpResponseTest" name="testAddHeader" time="0">
+  <testcase classname="io.harness.jhttp.server.SocketHttpResponseTest" name="testAddHeader" time="0.001">
     <error message="Unable to make private java.net.Socket(java.net.SocketAddress,java.net.SocketAddress,boolean) throws java.io.IOException accessible: module java.base does not &quot;opens java.net&quot; to unnamed module @2eb231a6" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make private java.net.Socket(java.net.SocketAddress,java.net.SocketAddress,boolean) throws java.io.IOException accessible: module java.base does not &quot;opens java.net&quot; to unnamed module @2eb231a6
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
@@ -155,7 +155,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make private
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="io.harness.jhttp.server.SocketHttpResponseTest" name="testNoHeadersAfterCommit" time="0">
+  <testcase classname="io.harness.jhttp.server.SocketHttpResponseTest" name="testNoHeadersAfterCommit" time="0.001">
     <error message="Unexpected exception, expected&lt;java.lang.IllegalStateException&gt; but was&lt;java.lang.reflect.InaccessibleObjectException&gt;" type="java.lang.Exception">java.lang.Exception: Unexpected exception, expected&lt;java.lang.IllegalStateException&gt; but was&lt;java.lang.reflect.InaccessibleObjectException&gt;
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
@@ -207,7 +207,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make private
 	... 22 more
 </error>
   </testcase>
-  <testcase classname="io.harness.jhttp.server.SocketHttpResponseTest" name="testOnlyOutputStream" time="0.001">
+  <testcase classname="io.harness.jhttp.server.SocketHttpResponseTest" name="testOnlyOutputStream" time="0">
     <error message="Unexpected exception, expected&lt;java.lang.IllegalStateException&gt; but was&lt;java.lang.reflect.InaccessibleObjectException&gt;" type="java.lang.Exception">java.lang.Exception: Unexpected exception, expected&lt;java.lang.IllegalStateException&gt; but was&lt;java.lang.reflect.InaccessibleObjectException&gt;
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)

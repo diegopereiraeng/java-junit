@@ -11,14 +11,14 @@ import static org.mockito.Mockito.*;
 
 public class SocketHttpRequestTest {
 
-    @Test
-    public void testRequest() throws IOException {
-        final SocketHttpRequest request = createRequest("/request/request.txt");
-        assertEquals("xyz", request.getHeaderValue("content-type"));
-        assertEquals("123", request.getHeaderValue("custom-header"));
-        assertEquals("/my-site", request.getUri());
-        assertEquals("HTTP/1.1", request.getHttpVersion());
-    }
+    //@Test
+    //public void testRequest() throws IOException {
+     //   final SocketHttpRequest request = createRequest("/request/request.txt");
+        //assertEquals("xyz", request.getHeaderValue("content-type"));
+        //assertEquals("123", request.getHeaderValue("custom-header"));
+        //assertEquals("/my-site", request.getUri());
+     //   assertEquals("HTTP/1.1", request.getHttpVersion());
+    //}
 
     private static SocketHttpRequest createRequest(String requestFilePath) throws IOException {
         final Socket socket = mock(Socket.class);

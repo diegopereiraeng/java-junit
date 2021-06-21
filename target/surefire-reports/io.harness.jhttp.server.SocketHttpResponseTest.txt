@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: io.harness.jhttp.server.SocketHttpResponseTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-testOnlyPrintWriter(io.harness.jhttp.server.SocketHttpResponseTest)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.036 sec <<< FAILURE!
+testOnlyPrintWriter(io.harness.jhttp.server.SocketHttpResponseTest)  Time elapsed: 0.033 sec  <<< ERROR!
 java.lang.Exception: Unexpected exception, expected<java.lang.IllegalStateException> but was<java.lang.reflect.InaccessibleObjectException>
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
@@ -53,7 +53,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make private
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
 	... 22 more
 
-testAddHeader(io.harness.jhttp.server.SocketHttpResponseTest)  Time elapsed: 0 sec  <<< ERROR!
+testAddHeader(io.harness.jhttp.server.SocketHttpResponseTest)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.reflect.InaccessibleObjectException: Unable to make private java.net.Socket(java.net.SocketAddress,java.net.SocketAddress,boolean) throws java.io.IOException accessible: module java.base does not "opens java.net" to unnamed module @2eb231a6
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
@@ -100,7 +100,7 @@ java.lang.reflect.InaccessibleObjectException: Unable to make private java.net.S
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testNoHeadersAfterCommit(io.harness.jhttp.server.SocketHttpResponseTest)  Time elapsed: 0 sec  <<< ERROR!
+testNoHeadersAfterCommit(io.harness.jhttp.server.SocketHttpResponseTest)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.Exception: Unexpected exception, expected<java.lang.IllegalStateException> but was<java.lang.reflect.InaccessibleObjectException>
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
@@ -151,7 +151,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make private
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
 	... 22 more
 
-testOnlyOutputStream(io.harness.jhttp.server.SocketHttpResponseTest)  Time elapsed: 0.001 sec  <<< ERROR!
+testOnlyOutputStream(io.harness.jhttp.server.SocketHttpResponseTest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.Exception: Unexpected exception, expected<java.lang.IllegalStateException> but was<java.lang.reflect.InaccessibleObjectException>
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)

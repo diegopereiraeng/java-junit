@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="io.harness.jhttp.server.SocketHttpRequestTest" time="0" errors="1" skipped="0">
+<testsuite tests="1" failures="0" name="io.harness.jhttp.server.SocketHttpRequestTest" time="0.036" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="16.0.1+0"/>
@@ -55,7 +55,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="Homebrew"/>
   </properties>
-  <testcase classname="io.harness.jhttp.server.SocketHttpRequestTest" name="testRequest" time="0">
+  <testcase classname="io.harness.jhttp.server.SocketHttpRequestTest" name="testRequest" time="0.036">
     <error message="Unable to make private java.net.Socket(java.net.SocketAddress,java.net.SocketAddress,boolean) throws java.io.IOException accessible: module java.base does not &quot;opens java.net&quot; to unnamed module @2eb231a6" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make private java.net.Socket(java.net.SocketAddress,java.net.SocketAddress,boolean) throws java.io.IOException accessible: module java.base does not &quot;opens java.net&quot; to unnamed module @2eb231a6
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)

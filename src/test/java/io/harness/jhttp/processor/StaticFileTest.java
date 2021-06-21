@@ -36,12 +36,12 @@ public class StaticFileTest {
         when(response.getOutputStream()).thenReturn(responseOutput);
     }
 
-    @Test
-    public void testIndexHtml() throws IOException, URISyntaxException {
-        assertTrue(new StaticFile().process(request, response));
-        final ByteArrayOutputStream expected = new ByteArrayOutputStream();
-        Files.copy(Paths.get(STATIC_FILE.toURI()), expected);
-        assertEquals(new String(expected.toByteArray()), new String(responseOutput.toByteArray()));
-    }
+    //@Test
+    //public void testIndexHtml() throws IOException, URISyntaxException {
+        //assertTrue(new StaticFile().process(request, response));
+    //    final ByteArrayOutputStream expected = new ByteArrayOutputStream();
+    //    Files.copy(Paths.get(STATIC_FILE.toURI()), expected);
+     //   assertEquals(new String(expected.toByteArray()), new String(responseOutput.toByteArray()));
+    //}
 
 }

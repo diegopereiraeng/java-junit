@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: io.harness.jhttp.server.SocketHttpRequestTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-testRequest(io.harness.jhttp.server.SocketHttpRequestTest)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.065 sec <<< FAILURE!
+testRequest(io.harness.jhttp.server.SocketHttpRequestTest)  Time elapsed: 0.036 sec  <<< ERROR!
 java.lang.reflect.InaccessibleObjectException: Unable to make private java.net.Socket(java.net.SocketAddress,java.net.SocketAddress,boolean) throws java.io.IOException accessible: module java.base does not "opens java.net" to unnamed module @2eb231a6
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
