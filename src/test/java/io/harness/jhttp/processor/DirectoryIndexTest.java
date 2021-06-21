@@ -18,7 +18,7 @@ import static org.mockito.Mockito.*;
 
 public class DirectoryIndexTest {
 
-    private Path tempDir;
+    public Path tempDir;
 
     private ByteArrayOutputStream outputStream;
 
@@ -49,7 +49,6 @@ public class DirectoryIndexTest {
     //    assertTrue(new DirectoryIndex().process(request, response));
     //    assertEquals("test123", getResponseAsString());
     //}
-
     //@Test
     //public void testIndexHtm() throws IOException {
     //    Files.write(tempDir.resolve("index.htm"), "test123".getBytes());
