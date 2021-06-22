@@ -46,8 +46,9 @@ public class DirectoryListing implements RequestProcessor {
         //writer.append(String.format("<li style='list-style-type:circle; padding:4px; background:yellow;'>\n<a href=\"%s/%s\">%s</a>\n</li>\n", uri, fileName, fileName));
         //writer.append(String.format("<li style='list-style-type:circle; padding:4px; background:#ff9999;'>\n<a href=\"%s/%s\">%s</a>\n</li>\n", uri, fileName, fileName));
        // writer.append(String.format("<li>\n<a href=\"%s/%s\">%s</a>\n</li>\n", uri, fileName, fileName));
-          writer.append(String.format("<li style='list-style-type:circle; padding:4px; background:#529e77;'>\n<a href=\"%s/%s\">%s</a>\n</li>\n", uri, fileName, "CustomerX")); // GREEN
       //  writer.append(String.format("<li style='list-style-type:circle; padding:4px; background:yellow;'>\n<a href=\"%s/%s\">%s</a>\n</li>\n", uri, fileName, fileName));
+      //  writer.append(String.format("<li style='list-style-type:circle; padding:4px; background:#529e77;'>\n<a href=\"%s/%s\">%s</a>\n</li>\n", uri, fileName, "CustomerX")); // yellow
+        writer.append(String.format("<li style='list-style-type:circle; padding:4px; background:#ffffff;'>\n<a href=\"%s/%s\">%s</a>\n</li>\n", uri, fileName, fileName)); // yellow
 
     }
 }
