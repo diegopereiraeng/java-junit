@@ -44,14 +44,16 @@ public class DirectoryIndexTest {
     }
 
     @Test
-    public void testIndexHtml() throws IOException {
+    public void testIndexHtml() throws IOException, InterruptedException {
         Files.write(tempDir.resolve("index.html"), "test123".getBytes());
+        Thread.sleep( 30000);
         //assertTrue(new DirectoryIndex().process(request, response));
         assertEquals("", getResponseAsString());
     }
     @Test
-    public void testIndexHtm() throws IOException {
+    public void testIndexHtm() throws IOException, InterruptedException {
         Files.write(tempDir.resolve("index.htm"), "test123".getBytes());
+        Thread.sleep( 10000);
     //    assertTrue(new DirectoryIndex().process(request, response));
         assertEquals("", getResponseAsString());
     }
